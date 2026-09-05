@@ -8,8 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 //@EnableFeignClients(basePackages = "com.hmall.api.client", defaultConfiguration = DefaultFeignConfig.class)
 @MapperScan("com.hmall.user.mapper")
 @SpringBootApplication
-public class userApplication {
+public class UserApplication {
     public static void main(String[] args) {
-        SpringApplication.run(userApplication.class, args);
+        SpringApplication.run(UserApplication.class, args);
     }
 }
