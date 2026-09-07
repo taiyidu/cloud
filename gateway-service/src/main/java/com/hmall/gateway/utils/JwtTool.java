@@ -1,11 +1,12 @@
-package com.hmall.utils;
+package com.hmall.gateway.utils;
+
 
 import cn.hutool.core.exceptions.ValidateException;
 import cn.hutool.jwt.JWT;
 import cn.hutool.jwt.JWTValidator;
 import cn.hutool.jwt.signers.JWTSigner;
 import cn.hutool.jwt.signers.JWTSignerUtil;
-import com.hmall.common.exception.UnauthorizedException;
+import com.hmall.gateway.exception.UnauthorizedException;
 import org.springframework.stereotype.Component;
 
 import java.security.KeyPair;
@@ -23,7 +24,7 @@ public class JwtTool {
     /**
      * 创建 access-token
      *
-     * @param  userId ttl
+      * @param userId 用户信息
      * @return access-token
      */
     public String createToken(Long userId, Duration ttl) {
