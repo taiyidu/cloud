@@ -17,6 +17,12 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
+        <!--common-->
+        <dependency>
+            <groupId>com.heima</groupId>
+            <artifactId>hm-common</artifactId>
+            <version>1.0.0</version>
+        </dependency>
         <!-- openFeign 用于在微服务之间交流像是mvc controller中的写法的一个组件-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
