@@ -2,3 +2,4 @@ hm:
   db:
     host: localhost
     pw: 200710
+    port: 3306

@@ -1,7 +1,0 @@
-hm:
-  db:
-    host: localhost
-    pw: 200710
-#  db:
-#    host: 192.168.150.101 # 修改为你自己的虚拟机IP地址
-#    pw: 123 # 修改为docker中的MySQL密码hm:
